@@ -1,34 +1,50 @@
-# Danganronpa: Another Tool (aka DRAT)
-## Version: 1.0 (Release: 09th April 2017)
-### Romhacking tool to mod and translate Danganronpa games for PC and PSVITA.
+I've been working on this since 2017. It's still a mess, I know, but it seems that it works! Anyway, I'm still working on it, so it's not ready for users yet.
+Maybe someday I'll redo the whole thing using C# like I should.
 
-If you're planning on translating DR1 or DR2, please consider there are
+# Danganronpa: Another Tool (aka DRAT)
+### Romhacking tool to mod and translate Danganronpa games (except V3).
+
+If you're planning on translating the games, please consider there are
 projects already in process of working on them, which you can also join. 
 
 ## List of DR1 (PC) fan-made translations:
-- Italian: http://alliceteam.altervista.org (by All-Ice Team)
-- Spanish: https://transcene.net (by TranScene)
-- French: https://equipemirai.com (by Mirai Team)
-- Russian: http://anivisual.net/board/1-1-0-463
-- Portuguese: http://zetsuboutranslations.me (by Zetsubou Translations)
+- Italian: http://alliceteam.altervista.org/ (by All-Ice Team)
+- Spanish: https://tradusquare.es/grupo.php?name=transcene (by TranScene)
+- French: https://equipemirai.com/ (by Mirai Team)
+- Russian: http://anivisual.net/board/1-1-0-463 (By Проект Монокума (Monokuma Project))
+- Portuguese: http://zetsuboutranslations.me/ (by Zetsubou Translations)
 
 ## List of DR2 (PC) fan-made translations:
-- Italian: http://alliceteam.altervista.org (by All-Ice Team)
-- Spanish: https://transcene.net (by TranScene)
+
+- Italian: http://alliceteam.altervista.org/ (by All-Ice Team)
+- Spanish: https://tradusquare.es/grupo.php?name=transcene (by TranScene)
+- French: https://equipemirai.com/ (by Mirai Team)
+- Russian: http://anivisual.net/board/1-1-0-877 (By horagema.exe)
+
+## List of DR AE (PC) fan-made translations:
+- French: https://equipemirai.com/ (by Mirai Team)
+- Spanish: https://tradusquare.es/grupo.php?name=transcene (by TranScene)
 
 -------------------------------------------------------------------------------------
 
 # 1 — Game titles compatible with the DRAT
 By using this program, you will be able to extract and repack almost every file from:
-- Danganronpa: Trigger Happy Havoc (PSP DEMO - PSP - PSVITA - PC)
-- Danganronpa 2: Goodbye Despair (PSVITA - PC)
-- Danganronpa Another Episode: Ultra Despair Girls (PSVITA - PC)
+- Danganronpa: Trigger Happy Havoc (PSP DEMO - PSP - PSVITA - PC - PS4)
+- Danganronpa 2: Goodbye Despair (PSVITA - PC - PS4)
+- Danganronpa Another Episode: Ultra Despair Girls (PSVITA - PC - PS4)
+
+I made DRAT with fantranslations and simple mods in mind, therefore if that's what are you aiming for, you should be fine with it.
+However if you want to go further and make more articulate mods and do things that you can't do with DRAT (like mod V3), use https://github.com/UnderMybrella/Spiral or https://github.com/jpmac26/DRV3-Tools
 
 -------------------------------------------------------------------------------------
 
 # 2 — Requirements
-- .NET Framework 4: https://www.microsoft.com/en-US/download/details.aspx?id=17718
+- .NET Framework 4.7.2: https://support.microsoft.com/en-us/help/4054529/microsoft-net-framework-4-7-2-language-pack-offline-installer-for-wind
 - The folder "Ext" has to be next to the tool so that it can work properly.
+
+- ONLY IF YOU NEED TO CONVERT TEXTURES FROM "PNG" TO "BTX"
+Python 2.7 (x32): http://www.python.org/download/
+PyQt4 (x32): http://www.riverbankcomputing.co.uk/software/pyqt/download
 
 -------------------------------------------------------------------------------------
 
@@ -61,14 +77,13 @@ right type of ".pak" you are going to work on.
   encoded them back into the right format while repacked back.
 
 ## N.B.  
-- Use some good text editor like Notepad++ to edit the ".xml" files.
-  DON'T USE WINDOWS' BLOCK NOTES otherwise you will not able to repack back
-  the texts correctly! https://notepad-plus-plus.org
+- Use some good PO editor like Poedit to edit the ".PO" files.
+  https://poedit.net/
   
 - The only tool which you can use to edit the fonts for DR1 and DR2 is the SDSE1:
   https://bitbucket.org/blackdragonhunt/the-super-duper-script-editor
 
-- At the moment the DRAT can't be used to edit anagrams or ".cpk" files.
+- At the moment the DRAT can't be used to edit anagrams from DR1.
 
 - For specific "reasons" you need to find "psp2gxt.exe" by your own
   and put it inside the "Ext" folder.
@@ -76,9 +91,18 @@ right type of ".pak" you are going to work on.
 -------------------------------------------------------------------------------------
 
 # 4 — Changelog
+## Version: 2.0 (Release: ???)
+- A lot of bugs have been fixed.
+- BND and CPK files now can be extracted and repacked.
+- BTX images can be converted to PNG and reconverted back to BTX.
+- Text files are now extracted in PO format instead of the old and ugly XML format I made.
+- You can convert your old XML files to "PO" via the "CONVERT XML TO PO" button.
+- The compressor needed for PSVITA have been added, however it doesn't compress enough, so the games are going to crash.
+- Other features has been added!
+
 ## Version: 1.0 (Release: 09 April 2017)
 - The tool has been entirely remade from scratch.
-- Everything has been improved
+- Everything has been improved.
 - New features has been added.
 
 ## Version: 0.9 (Release: 16th May 2016)
@@ -87,13 +111,27 @@ right type of ".pak" you are going to work on.
 -------------------------------------------------------------------------------------
 
 # 5 — Acknowledgements 
+- "Yarhl.Media.dll", "Yarhl.dll" and "Mono.Addins.dll" are used to make and read ".PO" files.
+  Thanks to: https://github.com/SceneGate/Yarhl
+  
 - "convert.exe" is used to convert textures from ".TGA" to ".PNG" and viceversa.
   Thanks to: http://www.imagemagick.org/script/convert.php
 
 - "ScarletTestApp.exe" is used to convert textures from ".GXT" and ".BTX" to ".PNG".
+  DRAT is using a moded version of Scarlet that I made with the purpose of make it work with DRAT and add new BTX formats.
   Thanks to: https://github.com/xdanieldzd/Scarlet
   
 - "GIM2PNG.exe" is used to convert textures from ".GIM" to ".PNG".
-  Thanks to: https://junk2ool.net/tools/psx/start
+  If you know who is the author of this tool, let me know.
   
 - "psp2gxt.exe" is used to convert textures from ".TGA" to ".GXT".
+
+- "YACpkTool.exe" is used to extract and repack ".CPK" files.
+  Thanks to: https://github.com/xdanieldzd/Scarlet
+
+- "Kontract.dll" is used to decompress and compress files.
+  Thanks to: https://github.com/IcySon55/Kuriimu
+  
+- "to_BTX.py" and "util.py" are used to convert textures from ".PNG" to ".BTX".
+  Thanks to: https://twitter.com/yukinogatari
+  I took the original file from yukinogatari and made my own changes, like adding new "BTX" formats.

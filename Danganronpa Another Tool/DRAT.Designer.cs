@@ -1,6 +1,6 @@
 ﻿namespace Danganronpa_Another_Tool
 {
-    partial class DRAT
+    public partial class DRAT
     {
         /// <summary>
         /// Variabile di progettazione necessaria.
@@ -28,1011 +28,1238 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DRAT));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ignoreLINWoTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eraseExtraLinefeedsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aDDJAPANESETEXTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hIDESPEAKERSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cLEANPSPCLTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label4 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            this.tabPage7.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.SuspendLayout();
+            tabControl1 = new System.Windows.Forms.TabControl();
+            tabPage1 = new System.Windows.Forms.TabPage();
+            tableLayoutPanelDR1PSP = new System.Windows.Forms.TableLayoutPanel();
+            buttonExtractUmdImage = new System.Windows.Forms.Button();
+            buttonRepackUmdImage = new System.Windows.Forms.Button();
+            tabPage2 = new System.Windows.Forms.TabPage();
+            tableLayoutPanelDR1PSVITA = new System.Windows.Forms.TableLayoutPanel();
+            buttonExtractCPK = new System.Windows.Forms.Button();
+            buttonRepackCPK = new System.Windows.Forms.Button();
+            labelCompression = new System.Windows.Forms.Label();
+            buttonDecompressFiles = new System.Windows.Forms.Button();
+            buttonCompressFIles = new System.Windows.Forms.Button();
+            tabPage3 = new System.Windows.Forms.TabPage();
+            tableLayoutPanelDR1PC = new System.Windows.Forms.TableLayoutPanel();
+            buttonRepackPakToPNG = new System.Windows.Forms.Button();
+            buttonExtractPakToPNG = new System.Windows.Forms.Button();
+            buttonRepackPakType1 = new System.Windows.Forms.Button();
+            buttonRepacktPakWOConvert16 = new System.Windows.Forms.Button();
+            buttonConvertToTGA = new System.Windows.Forms.Button();
+            buttonExtractPakType2 = new System.Windows.Forms.Button();
+            buttonConverBTX = new System.Windows.Forms.Button();
+            buttonConvertToPng = new System.Windows.Forms.Button();
+            buttonRepackPakType2 = new System.Windows.Forms.Button();
+            buttonExtractPakWOConvert = new System.Windows.Forms.Button();
+            buttonExtractPakType3 = new System.Windows.Forms.Button();
+            buttonRepackPakType3 = new System.Windows.Forms.Button();
+            buttonExtractPakType1 = new System.Windows.Forms.Button();
+            buttonRepackLin = new System.Windows.Forms.Button();
+            labelTextures = new System.Windows.Forms.Label();
+            labelTexts = new System.Windows.Forms.Label();
+            buttonExtractLin = new System.Windows.Forms.Button();
+            labelUtilities = new System.Windows.Forms.Label();
+            buttonConvertGXT = new System.Windows.Forms.Button();
+            buttonConvertXmlToPo = new System.Windows.Forms.Button();
+            buttonaPoToTranslateOtherPos = new System.Windows.Forms.Button();
+            labelDataAssets = new System.Windows.Forms.Label();
+            buttonUnpackWAD = new System.Windows.Forms.Button();
+            buttonRepackWAD = new System.Windows.Forms.Button();
+            tabPage4 = new System.Windows.Forms.TabPage();
+            tableLayoutPanelDR2PSVITA = new System.Windows.Forms.TableLayoutPanel();
+            tabPage5 = new System.Windows.Forms.TabPage();
+            tableLayoutPanelDR2PC = new System.Windows.Forms.TableLayoutPanel();
+            tabPage6 = new System.Windows.Forms.TabPage();
+            tableLayoutPanelDRAEPSVITA = new System.Windows.Forms.TableLayoutPanel();
+            buttonExtractBND = new System.Windows.Forms.Button();
+            buttonRepackBND = new System.Windows.Forms.Button();
+            tabPage7 = new System.Windows.Forms.TabPage();
+            tableLayoutPanelDRAEPC = new System.Windows.Forms.TableLayoutPanel();
+            tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            labelStatusText = new System.Windows.Forms.Label();
+            menuStrip1 = new System.Windows.Forms.MenuStrip();
+            optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            repackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            chooseFreelyTheFolderToRepackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            textToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            ignoreLINWoTextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            eraseExtraLinefeedsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            aDDJAPANESETEXTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            hIDESPEAKERSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            cLEANPSPCLTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            toBTXToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            toBTXToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripComboBoxBTXType = new System.Windows.Forms.ToolStripComboBox();
+            removeAdditionalDataFromExtensionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            labelStatusName = new System.Windows.Forms.Label();
+            linkLabelCredits = new System.Windows.Forms.LinkLabel();
+            tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            tableLayoutPanelDR1PSP.SuspendLayout();
+            tabPage2.SuspendLayout();
+            tableLayoutPanelDR1PSVITA.SuspendLayout();
+            tabPage3.SuspendLayout();
+            tableLayoutPanelDR1PC.SuspendLayout();
+            tabPage4.SuspendLayout();
+            tabPage5.SuspendLayout();
+            tabPage6.SuspendLayout();
+            tableLayoutPanelDRAEPSVITA.SuspendLayout();
+            tabPage7.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            menuStrip1.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
+            SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 28);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(968, 305);
-            this.tabControl1.TabIndex = 23;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage5);
+            tabControl1.Controls.Add(tabPage6);
+            tabControl1.Controls.Add(tabPage7);
+            tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            tabControl1.Location = new System.Drawing.Point(0, 28);
+            tabControl1.Margin = new System.Windows.Forms.Padding(0);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new System.Drawing.Size(968, 380);
+            tabControl1.TabIndex = 23;
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
-            this.tabPage1.Controls.Add(this.tableLayoutPanel3);
-            this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(960, 276);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "DR1 (PSP)";
+            tabPage1.BackColor = System.Drawing.Color.Transparent;
+            tabPage1.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
+            tabPage1.Controls.Add(tableLayoutPanelDR1PSP);
+            tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tabPage1.Location = new System.Drawing.Point(4, 22);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Size = new System.Drawing.Size(960, 354);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "DR1 (PSP)";
             // 
-            // tableLayoutPanel3
+            // tableLayoutPanelDR1PSP
             // 
-            this.tableLayoutPanel3.ColumnCount = 7;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel3.Controls.Add(this.button6, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.button5, 0, 1);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.tableLayoutPanel3.RowCount = 8;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(960, 276);
-            this.tableLayoutPanel3.TabIndex = 0;
+            tableLayoutPanelDR1PSP.ColumnCount = 7;
+            tableLayoutPanelDR1PSP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR1PSP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR1PSP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSP.Controls.Add(buttonExtractUmdImage, 0, 1);
+            tableLayoutPanelDR1PSP.Controls.Add(buttonRepackUmdImage, 0, 2);
+            tableLayoutPanelDR1PSP.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanelDR1PSP.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanelDR1PSP.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanelDR1PSP.Name = "tableLayoutPanelDR1PSP";
+            tableLayoutPanelDR1PSP.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            tableLayoutPanelDR1PSP.RowCount = 12;
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSP.Size = new System.Drawing.Size(960, 354);
+            tableLayoutPanelDR1PSP.TabIndex = 0;
             // 
-            // button6
+            // buttonExtractUmdImage
             // 
-            this.button6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button6.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(2, 82);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(180, 55);
-            this.button6.TabIndex = 28;
-            this.button6.Text = "EXTRACT DEMO\r\n\"UMDIMAGE.DAT\"";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            buttonExtractUmdImage.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            buttonExtractUmdImage.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonExtractUmdImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractUmdImage.ForeColor = System.Drawing.Color.White;
+            buttonExtractUmdImage.Location = new System.Drawing.Point(2, 23);
+            buttonExtractUmdImage.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractUmdImage.Name = "buttonExtractUmdImage";
+            buttonExtractUmdImage.Size = new System.Drawing.Size(180, 55);
+            buttonExtractUmdImage.TabIndex = 9;
+            buttonExtractUmdImage.Text = "EXTRACT FULL GAME\r\n\"UMDIMAGE.DAT\"";
+            buttonExtractUmdImage.UseVisualStyleBackColor = false;
+            buttonExtractUmdImage.Click += new System.EventHandler(Button5_Click);
             // 
-            // button5
+            // buttonRepackUmdImage
             // 
-            this.button5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button5.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(2, 23);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(180, 55);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "EXTRACT FULL GAME\r\n\"UMDIMAGE.DAT\"";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            buttonRepackUmdImage.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            buttonRepackUmdImage.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonRepackUmdImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackUmdImage.ForeColor = System.Drawing.Color.White;
+            buttonRepackUmdImage.Location = new System.Drawing.Point(2, 82);
+            buttonRepackUmdImage.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackUmdImage.Name = "buttonRepackUmdImage";
+            buttonRepackUmdImage.Size = new System.Drawing.Size(180, 55);
+            buttonRepackUmdImage.TabIndex = 28;
+            buttonRepackUmdImage.Text = "EXTRACT DEMO\r\n\"UMDIMAGE.DAT\"";
+            buttonRepackUmdImage.UseVisualStyleBackColor = false;
+            buttonRepackUmdImage.Click += new System.EventHandler(Button6_Click);
             // 
             // tabPage2
             // 
-            this.tabPage2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage2.BackgroundImage")));
-            this.tabPage2.Controls.Add(this.tableLayoutPanel4);
-            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(960, 276);
-            this.tabPage2.TabIndex = 2;
-            this.tabPage2.Text = "DR1 (PSVITA)";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            tabPage2.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
+            tabPage2.Controls.Add(tableLayoutPanelDR1PSVITA);
+            tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tabPage2.Location = new System.Drawing.Point(4, 22);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Size = new System.Drawing.Size(960, 354);
+            tabPage2.TabIndex = 2;
+            tabPage2.Text = "DR1 (PSVITA)";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel4
+            // tableLayoutPanelDR1PSVITA
             // 
-            this.tableLayoutPanel4.ColumnCount = 7;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel4.Controls.Add(this.button3, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.button4, 0, 2);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.tableLayoutPanel4.RowCount = 8;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(960, 276);
-            this.tableLayoutPanel4.TabIndex = 1;
+            tableLayoutPanelDR1PSVITA.ColumnCount = 7;
+            tableLayoutPanelDR1PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR1PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR1PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PSVITA.Controls.Add(buttonExtractCPK, 0, 1);
+            tableLayoutPanelDR1PSVITA.Controls.Add(buttonRepackCPK, 0, 2);
+            tableLayoutPanelDR1PSVITA.Controls.Add(labelCompression, 0, 3);
+            tableLayoutPanelDR1PSVITA.Controls.Add(buttonDecompressFiles, 0, 4);
+            tableLayoutPanelDR1PSVITA.Controls.Add(buttonCompressFIles, 0, 5);
+            tableLayoutPanelDR1PSVITA.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanelDR1PSVITA.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanelDR1PSVITA.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanelDR1PSVITA.Name = "tableLayoutPanelDR1PSVITA";
+            tableLayoutPanelDR1PSVITA.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            tableLayoutPanelDR1PSVITA.RowCount = 12;
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PSVITA.Size = new System.Drawing.Size(960, 354);
+            tableLayoutPanelDR1PSVITA.TabIndex = 1;
             // 
-            // button3
+            // buttonExtractCPK
             // 
-            this.button3.BackColor = System.Drawing.Color.Black;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(2, 23);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(180, 55);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "EXTRACT \".CPK\"";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            buttonExtractCPK.BackColor = System.Drawing.Color.Black;
+            buttonExtractCPK.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractCPK.ForeColor = System.Drawing.Color.White;
+            buttonExtractCPK.Location = new System.Drawing.Point(2, 23);
+            buttonExtractCPK.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractCPK.Name = "buttonExtractCPK";
+            buttonExtractCPK.Size = new System.Drawing.Size(180, 55);
+            buttonExtractCPK.TabIndex = 7;
+            buttonExtractCPK.Text = "EXTRACT \".CPK\"";
+            buttonExtractCPK.UseVisualStyleBackColor = false;
+            buttonExtractCPK.Click += new System.EventHandler(Button3_Click);
             // 
-            // button4
+            // buttonRepackCPK
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(2, 82);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(180, 55);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "REPACK \".CPK\"";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            buttonRepackCPK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackCPK.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackCPK.ForeColor = System.Drawing.Color.White;
+            buttonRepackCPK.Location = new System.Drawing.Point(2, 82);
+            buttonRepackCPK.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackCPK.Name = "buttonRepackCPK";
+            buttonRepackCPK.Size = new System.Drawing.Size(180, 55);
+            buttonRepackCPK.TabIndex = 8;
+            buttonRepackCPK.Text = "REPACK \".CPK\"";
+            buttonRepackCPK.UseVisualStyleBackColor = false;
+            buttonRepackCPK.Click += new System.EventHandler(Button4_Click);
+            // 
+            // labelCompression
+            // 
+            labelCompression.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            labelCompression.AutoSize = true;
+            labelCompression.BackColor = System.Drawing.SystemColors.ControlLight;
+            labelCompression.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            labelCompression.ForeColor = System.Drawing.Color.Black;
+            labelCompression.Location = new System.Drawing.Point(3, 140);
+            labelCompression.Name = "labelCompression";
+            labelCompression.Size = new System.Drawing.Size(178, 15);
+            labelCompression.TabIndex = 30;
+            labelCompression.Text = "COMPRESSION";
+            labelCompression.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonDecompressFiles
+            // 
+            buttonDecompressFiles.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonDecompressFiles.BackColor = System.Drawing.Color.Black;
+            buttonDecompressFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonDecompressFiles.ForeColor = System.Drawing.Color.White;
+            buttonDecompressFiles.Location = new System.Drawing.Point(2, 159);
+            buttonDecompressFiles.Margin = new System.Windows.Forms.Padding(2);
+            buttonDecompressFiles.Name = "buttonDecompressFiles";
+            buttonDecompressFiles.Size = new System.Drawing.Size(180, 55);
+            buttonDecompressFiles.TabIndex = 31;
+            buttonDecompressFiles.Text = "DECOMPRESS FILES";
+            buttonDecompressFiles.UseVisualStyleBackColor = false;
+            buttonDecompressFiles.Click += new System.EventHandler(ButtonDecompressFiles_Click);
+            // 
+            // buttonCompressFIles
+            // 
+            buttonCompressFIles.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonCompressFIles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonCompressFIles.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonCompressFIles.ForeColor = System.Drawing.Color.White;
+            buttonCompressFIles.Location = new System.Drawing.Point(2, 218);
+            buttonCompressFIles.Margin = new System.Windows.Forms.Padding(2);
+            buttonCompressFIles.Name = "buttonCompressFIles";
+            buttonCompressFIles.Size = new System.Drawing.Size(180, 55);
+            buttonCompressFIles.TabIndex = 32;
+            buttonCompressFIles.Text = "COMPRESS FILES";
+            buttonCompressFIles.UseVisualStyleBackColor = false;
+            buttonCompressFIles.Click += new System.EventHandler(ButtonCompressFIles_Click);
             // 
             // tabPage3
             // 
-            this.tabPage3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage3.BackgroundImage")));
-            this.tabPage3.Controls.Add(this.tableLayoutPanel5);
-            this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(960, 276);
-            this.tabPage3.TabIndex = 1;
-            this.tabPage3.Text = "DR1 (PC)";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            tabPage3.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
+            tabPage3.Controls.Add(tableLayoutPanelDR1PC);
+            tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tabPage3.Location = new System.Drawing.Point(4, 22);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Size = new System.Drawing.Size(960, 354);
+            tabPage3.TabIndex = 1;
+            tabPage3.Text = "DR1 (PC)";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel5
+            // tableLayoutPanelDR1PC
             // 
-            this.tableLayoutPanel5.ColumnCount = 7;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel5.Controls.Add(this.button18, 6, 2);
-            this.tableLayoutPanel5.Controls.Add(this.button17, 5, 2);
-            this.tableLayoutPanel5.Controls.Add(this.button10, 3, 2);
-            this.tableLayoutPanel5.Controls.Add(this.button16, 6, 1);
-            this.tableLayoutPanel5.Controls.Add(this.button21, 5, 5);
-            this.tableLayoutPanel5.Controls.Add(this.button20, 6, 4);
-            this.tableLayoutPanel5.Controls.Add(this.button11, 2, 4);
-            this.tableLayoutPanel5.Controls.Add(this.button22, 6, 5);
-            this.tableLayoutPanel5.Controls.Add(this.button19, 5, 4);
-            this.tableLayoutPanel5.Controls.Add(this.button12, 3, 4);
-            this.tableLayoutPanel5.Controls.Add(this.button15, 5, 1);
-            this.tableLayoutPanel5.Controls.Add(this.button13, 2, 5);
-            this.tableLayoutPanel5.Controls.Add(this.button14, 3, 5);
-            this.tableLayoutPanel5.Controls.Add(this.button9, 2, 2);
-            this.tableLayoutPanel5.Controls.Add(this.button8, 3, 1);
-            this.tableLayoutPanel5.Controls.Add(this.label3, 5, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label2, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.button7, 2, 1);
-            this.tableLayoutPanel5.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.button1, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.button2, 0, 2);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.tableLayoutPanel5.RowCount = 8;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(960, 276);
-            this.tableLayoutPanel5.TabIndex = 0;
+            tableLayoutPanelDR1PC.ColumnCount = 7;
+            tableLayoutPanelDR1PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR1PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR1PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR1PC.Controls.Add(buttonRepackPakToPNG, 6, 2);
+            tableLayoutPanelDR1PC.Controls.Add(buttonExtractPakToPNG, 5, 2);
+            tableLayoutPanelDR1PC.Controls.Add(buttonRepackPakType1, 3, 2);
+            tableLayoutPanelDR1PC.Controls.Add(buttonRepacktPakWOConvert16, 6, 1);
+            tableLayoutPanelDR1PC.Controls.Add(buttonConvertToTGA, 6, 4);
+            tableLayoutPanelDR1PC.Controls.Add(buttonExtractPakType2, 2, 4);
+            tableLayoutPanelDR1PC.Controls.Add(buttonConverBTX, 6, 5);
+            tableLayoutPanelDR1PC.Controls.Add(buttonConvertToPng, 5, 4);
+            tableLayoutPanelDR1PC.Controls.Add(buttonRepackPakType2, 3, 4);
+            tableLayoutPanelDR1PC.Controls.Add(buttonExtractPakWOConvert, 5, 1);
+            tableLayoutPanelDR1PC.Controls.Add(buttonExtractPakType3, 2, 5);
+            tableLayoutPanelDR1PC.Controls.Add(buttonRepackPakType3, 3, 5);
+            tableLayoutPanelDR1PC.Controls.Add(buttonExtractPakType1, 2, 2);
+            tableLayoutPanelDR1PC.Controls.Add(buttonRepackLin, 3, 1);
+            tableLayoutPanelDR1PC.Controls.Add(labelTextures, 5, 0);
+            tableLayoutPanelDR1PC.Controls.Add(labelTexts, 2, 0);
+            tableLayoutPanelDR1PC.Controls.Add(buttonExtractLin, 2, 1);
+            tableLayoutPanelDR1PC.Controls.Add(labelUtilities, 5, 6);
+            tableLayoutPanelDR1PC.Controls.Add(buttonConvertGXT, 5, 5);
+            tableLayoutPanelDR1PC.Controls.Add(buttonConvertXmlToPo, 5, 7);
+            tableLayoutPanelDR1PC.Controls.Add(buttonaPoToTranslateOtherPos, 6, 7);
+            tableLayoutPanelDR1PC.Controls.Add(labelDataAssets, 0, 0);
+            tableLayoutPanelDR1PC.Controls.Add(buttonUnpackWAD, 0, 1);
+            tableLayoutPanelDR1PC.Controls.Add(buttonRepackWAD, 0, 2);
+            tableLayoutPanelDR1PC.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanelDR1PC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tableLayoutPanelDR1PC.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanelDR1PC.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanelDR1PC.Name = "tableLayoutPanelDR1PC";
+            tableLayoutPanelDR1PC.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            tableLayoutPanelDR1PC.RowCount = 12;
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR1PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR1PC.Size = new System.Drawing.Size(960, 354);
+            tableLayoutPanelDR1PC.TabIndex = 0;
             // 
-            // button18
+            // buttonRepackPakToPNG
             // 
-            this.button18.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(778, 82);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(180, 55);
-            this.button18.TabIndex = 11;
-            this.button18.Text = "REPACK TEXTURE\r\n\".PAK\" FROM PNG";
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
+            buttonRepackPakToPNG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonRepackPakToPNG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackPakToPNG.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackPakToPNG.ForeColor = System.Drawing.Color.White;
+            buttonRepackPakToPNG.Location = new System.Drawing.Point(778, 82);
+            buttonRepackPakToPNG.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackPakToPNG.Name = "buttonRepackPakToPNG";
+            buttonRepackPakToPNG.Size = new System.Drawing.Size(180, 55);
+            buttonRepackPakToPNG.TabIndex = 11;
+            buttonRepackPakToPNG.Text = "REPACK TEXTURE\r\n\".PAK\" FROM PNG";
+            buttonRepackPakToPNG.UseVisualStyleBackColor = false;
+            buttonRepackPakToPNG.Click += new System.EventHandler(Button18_Click);
             // 
-            // button17
+            // buttonExtractPakToPNG
             // 
-            this.button17.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button17.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(594, 82);
-            this.button17.Margin = new System.Windows.Forms.Padding(2);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(180, 55);
-            this.button17.TabIndex = 10;
-            this.button17.Text = "EXTRACT TEXTURE\r\n\".PAK\" TO PNG";
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
+            buttonExtractPakToPNG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonExtractPakToPNG.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonExtractPakToPNG.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractPakToPNG.ForeColor = System.Drawing.Color.White;
+            buttonExtractPakToPNG.Location = new System.Drawing.Point(594, 82);
+            buttonExtractPakToPNG.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractPakToPNG.Name = "buttonExtractPakToPNG";
+            buttonExtractPakToPNG.Size = new System.Drawing.Size(180, 55);
+            buttonExtractPakToPNG.TabIndex = 10;
+            buttonExtractPakToPNG.Text = "EXTRACT TEXTURE\r\n\".PAK\" TO PNG";
+            buttonExtractPakToPNG.UseVisualStyleBackColor = false;
+            buttonExtractPakToPNG.Click += new System.EventHandler(Button17_Click);
             // 
-            // button10
+            // buttonRepackPakType1
             // 
-            this.button10.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(390, 82);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(180, 55);
-            this.button10.TabIndex = 17;
-            this.button10.Text = "REPACK \".PAK\" TYPE 1\r\n(SIMPLE TEXT)";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            buttonRepackPakType1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonRepackPakType1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackPakType1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackPakType1.ForeColor = System.Drawing.Color.White;
+            buttonRepackPakType1.Location = new System.Drawing.Point(390, 82);
+            buttonRepackPakType1.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackPakType1.Name = "buttonRepackPakType1";
+            buttonRepackPakType1.Size = new System.Drawing.Size(180, 55);
+            buttonRepackPakType1.TabIndex = 17;
+            buttonRepackPakType1.Text = "REPACK \".PAK\" TYPE 1\r\n(SIMPLE TEXT)";
+            buttonRepackPakType1.UseVisualStyleBackColor = false;
+            buttonRepackPakType1.Click += new System.EventHandler(Button10_Click);
             // 
-            // button16
+            // buttonRepacktPakWOConvert16
             // 
-            this.button16.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(778, 23);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(180, 55);
-            this.button16.TabIndex = 9;
-            this.button16.Text = "REPACK TEXTURE\r\n\".PAK\" W/O CONVERT";
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
+            buttonRepacktPakWOConvert16.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonRepacktPakWOConvert16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepacktPakWOConvert16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepacktPakWOConvert16.ForeColor = System.Drawing.Color.White;
+            buttonRepacktPakWOConvert16.Location = new System.Drawing.Point(778, 23);
+            buttonRepacktPakWOConvert16.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepacktPakWOConvert16.Name = "buttonRepacktPakWOConvert16";
+            buttonRepacktPakWOConvert16.Size = new System.Drawing.Size(180, 55);
+            buttonRepacktPakWOConvert16.TabIndex = 9;
+            buttonRepacktPakWOConvert16.Text = "REPACK TEXTURE\r\n\".PAK\" W/O CONVERT";
+            buttonRepacktPakWOConvert16.UseVisualStyleBackColor = false;
+            buttonRepacktPakWOConvert16.Click += new System.EventHandler(Button16_Click);
             // 
-            // button21
+            // buttonConvertToTGA
             // 
-            this.button21.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button21.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(594, 218);
-            this.button21.Margin = new System.Windows.Forms.Padding(2);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(180, 55);
-            this.button21.TabIndex = 14;
-            this.button21.Text = "CONVERT TO\r\nGXT";
-            this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            buttonConvertToTGA.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonConvertToTGA.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonConvertToTGA.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonConvertToTGA.ForeColor = System.Drawing.Color.White;
+            buttonConvertToTGA.Location = new System.Drawing.Point(778, 159);
+            buttonConvertToTGA.Margin = new System.Windows.Forms.Padding(2);
+            buttonConvertToTGA.Name = "buttonConvertToTGA";
+            buttonConvertToTGA.Size = new System.Drawing.Size(180, 55);
+            buttonConvertToTGA.TabIndex = 13;
+            buttonConvertToTGA.Text = "CONVERT TO\r\nTGA";
+            buttonConvertToTGA.UseVisualStyleBackColor = false;
+            buttonConvertToTGA.Click += new System.EventHandler(Button20_Click);
             // 
-            // button20
+            // buttonExtractPakType2
             // 
-            this.button20.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button20.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(778, 159);
-            this.button20.Margin = new System.Windows.Forms.Padding(2);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(180, 55);
-            this.button20.TabIndex = 13;
-            this.button20.Text = "CONVERT TO\r\nTGA";
-            this.button20.UseVisualStyleBackColor = false;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
+            buttonExtractPakType2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonExtractPakType2.BackColor = System.Drawing.Color.Black;
+            buttonExtractPakType2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractPakType2.ForeColor = System.Drawing.Color.White;
+            buttonExtractPakType2.Location = new System.Drawing.Point(206, 159);
+            buttonExtractPakType2.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractPakType2.Name = "buttonExtractPakType2";
+            buttonExtractPakType2.Size = new System.Drawing.Size(180, 55);
+            buttonExtractPakType2.TabIndex = 18;
+            buttonExtractPakType2.Text = "EXTRACT \".PAK\" TYPE 2\r\n(\".LIN\"S INSIDE \".PAK\")";
+            buttonExtractPakType2.UseVisualStyleBackColor = false;
+            buttonExtractPakType2.Click += new System.EventHandler(Button11_Click);
             // 
-            // button11
+            // buttonConverBTX
             // 
-            this.button11.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button11.BackColor = System.Drawing.Color.Black;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(206, 159);
-            this.button11.Margin = new System.Windows.Forms.Padding(2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(180, 55);
-            this.button11.TabIndex = 18;
-            this.button11.Text = "EXTRACT \".PAK\" TYPE 2\r\n(\".LIN\"S INSIDE \".PAK\")";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            buttonConverBTX.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonConverBTX.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonConverBTX.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonConverBTX.ForeColor = System.Drawing.Color.White;
+            buttonConverBTX.Location = new System.Drawing.Point(778, 218);
+            buttonConverBTX.Margin = new System.Windows.Forms.Padding(2);
+            buttonConverBTX.Name = "buttonConverBTX";
+            buttonConverBTX.Size = new System.Drawing.Size(180, 55);
+            buttonConverBTX.TabIndex = 15;
+            buttonConverBTX.Text = "CONVERT TO\r\nBTX";
+            buttonConverBTX.UseVisualStyleBackColor = false;
+            buttonConverBTX.Click += new System.EventHandler(Button22_Click);
             // 
-            // button22
+            // buttonConvertToPng
             // 
-            this.button22.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button22.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Location = new System.Drawing.Point(778, 218);
-            this.button22.Margin = new System.Windows.Forms.Padding(2);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(180, 55);
-            this.button22.TabIndex = 15;
-            this.button22.Text = "CONVERT TO\r\nBXT";
-            this.button22.UseVisualStyleBackColor = false;
-            this.button22.Visible = false;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
+            buttonConvertToPng.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonConvertToPng.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonConvertToPng.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonConvertToPng.ForeColor = System.Drawing.Color.White;
+            buttonConvertToPng.Location = new System.Drawing.Point(594, 159);
+            buttonConvertToPng.Margin = new System.Windows.Forms.Padding(2);
+            buttonConvertToPng.Name = "buttonConvertToPng";
+            buttonConvertToPng.Size = new System.Drawing.Size(180, 55);
+            buttonConvertToPng.TabIndex = 12;
+            buttonConvertToPng.Text = "CONVERT TO\r\nPNG";
+            buttonConvertToPng.UseVisualStyleBackColor = false;
+            buttonConvertToPng.Click += new System.EventHandler(Button19_Click);
             // 
-            // button19
+            // buttonRepackPakType2
             // 
-            this.button19.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button19.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(594, 159);
-            this.button19.Margin = new System.Windows.Forms.Padding(2);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(180, 55);
-            this.button19.TabIndex = 12;
-            this.button19.Text = "CONVERT TO\r\nPNG";
-            this.button19.UseVisualStyleBackColor = false;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
+            buttonRepackPakType2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonRepackPakType2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackPakType2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackPakType2.ForeColor = System.Drawing.Color.White;
+            buttonRepackPakType2.Location = new System.Drawing.Point(390, 159);
+            buttonRepackPakType2.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackPakType2.Name = "buttonRepackPakType2";
+            buttonRepackPakType2.Size = new System.Drawing.Size(180, 55);
+            buttonRepackPakType2.TabIndex = 19;
+            buttonRepackPakType2.Text = "REPACK \".PAK\" TYPE 2\r\n(\".LIN\"S INSIDE \".PAK\")";
+            buttonRepackPakType2.UseVisualStyleBackColor = false;
+            buttonRepackPakType2.Click += new System.EventHandler(Button12_Click);
             // 
-            // button12
+            // buttonExtractPakWOConvert
             // 
-            this.button12.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(390, 159);
-            this.button12.Margin = new System.Windows.Forms.Padding(2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(180, 55);
-            this.button12.TabIndex = 19;
-            this.button12.Text = "REPACK \".PAK\" TYPE 2\r\n(\".LIN\"S INSIDE \".PAK\")";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            buttonExtractPakWOConvert.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonExtractPakWOConvert.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonExtractPakWOConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractPakWOConvert.ForeColor = System.Drawing.Color.White;
+            buttonExtractPakWOConvert.Location = new System.Drawing.Point(594, 23);
+            buttonExtractPakWOConvert.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractPakWOConvert.Name = "buttonExtractPakWOConvert";
+            buttonExtractPakWOConvert.Size = new System.Drawing.Size(180, 55);
+            buttonExtractPakWOConvert.TabIndex = 8;
+            buttonExtractPakWOConvert.Text = "EXTRACT TEXTURE\r\n\".PAK\" W/O CONVERT";
+            buttonExtractPakWOConvert.UseVisualStyleBackColor = false;
+            buttonExtractPakWOConvert.Click += new System.EventHandler(Button15_Click);
             // 
-            // button15
+            // buttonExtractPakType3
             // 
-            this.button15.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button15.BackColor = System.Drawing.SystemColors.InfoText;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(594, 23);
-            this.button15.Margin = new System.Windows.Forms.Padding(2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(180, 55);
-            this.button15.TabIndex = 8;
-            this.button15.Text = "EXTRACT TEXTURE\r\n\".PAK\" W/O CONVERT";
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
+            buttonExtractPakType3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonExtractPakType3.BackColor = System.Drawing.Color.Black;
+            buttonExtractPakType3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractPakType3.ForeColor = System.Drawing.Color.White;
+            buttonExtractPakType3.Location = new System.Drawing.Point(206, 218);
+            buttonExtractPakType3.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractPakType3.Name = "buttonExtractPakType3";
+            buttonExtractPakType3.Size = new System.Drawing.Size(180, 55);
+            buttonExtractPakType3.TabIndex = 20;
+            buttonExtractPakType3.Text = "EXTRACT \".PAK\" TYPE 3\r\n(\".PAK\"S INSIDE \".PAK\")";
+            buttonExtractPakType3.UseVisualStyleBackColor = false;
+            buttonExtractPakType3.Click += new System.EventHandler(Button13_Click);
             // 
-            // button13
+            // buttonRepackPakType3
             // 
-            this.button13.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button13.BackColor = System.Drawing.Color.Black;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(206, 218);
-            this.button13.Margin = new System.Windows.Forms.Padding(2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(180, 55);
-            this.button13.TabIndex = 20;
-            this.button13.Text = "EXTRACT \".PAK\" TYPE 3\r\n(\".PAK\"S INSIDE \".PAK\")";
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            buttonRepackPakType3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonRepackPakType3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackPakType3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackPakType3.ForeColor = System.Drawing.Color.White;
+            buttonRepackPakType3.Location = new System.Drawing.Point(390, 218);
+            buttonRepackPakType3.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackPakType3.Name = "buttonRepackPakType3";
+            buttonRepackPakType3.Size = new System.Drawing.Size(180, 55);
+            buttonRepackPakType3.TabIndex = 21;
+            buttonRepackPakType3.Text = "REPACK \".PAK\" TYPE 3\r\n(\".PAK\"S INSIDE \".PAK\")";
+            buttonRepackPakType3.UseVisualStyleBackColor = false;
+            buttonRepackPakType3.Click += new System.EventHandler(Button14_Click);
             // 
-            // button14
+            // buttonExtractPakType1
             // 
-            this.button14.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(390, 218);
-            this.button14.Margin = new System.Windows.Forms.Padding(2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(180, 55);
-            this.button14.TabIndex = 21;
-            this.button14.Text = "REPACK \".PAK\" TYPE 3\r\n(\".PAK\"S INSIDE \".PAK\")";
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
+            buttonExtractPakType1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonExtractPakType1.BackColor = System.Drawing.Color.Black;
+            buttonExtractPakType1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractPakType1.ForeColor = System.Drawing.Color.White;
+            buttonExtractPakType1.Location = new System.Drawing.Point(206, 82);
+            buttonExtractPakType1.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractPakType1.Name = "buttonExtractPakType1";
+            buttonExtractPakType1.Size = new System.Drawing.Size(180, 55);
+            buttonExtractPakType1.TabIndex = 16;
+            buttonExtractPakType1.Text = "EXTRACT \".PAK\" TYPE 1\r\n(SIMPLE TEXT)";
+            buttonExtractPakType1.UseVisualStyleBackColor = false;
+            buttonExtractPakType1.Click += new System.EventHandler(Button9_Click);
             // 
-            // button9
+            // buttonRepackLin
             // 
-            this.button9.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button9.BackColor = System.Drawing.Color.Black;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(206, 82);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(180, 55);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "EXTRACT \".PAK\" TYPE 1\r\n(SIMPLE TEXT)";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            buttonRepackLin.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonRepackLin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackLin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackLin.ForeColor = System.Drawing.Color.White;
+            buttonRepackLin.Location = new System.Drawing.Point(390, 23);
+            buttonRepackLin.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackLin.Name = "buttonRepackLin";
+            buttonRepackLin.Size = new System.Drawing.Size(180, 55);
+            buttonRepackLin.TabIndex = 15;
+            buttonRepackLin.Text = "REPACK \".LIN\"";
+            buttonRepackLin.UseVisualStyleBackColor = false;
+            buttonRepackLin.Click += new System.EventHandler(Button8_Click);
             // 
-            // button8
+            // labelTextures
             // 
-            this.button8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(390, 23);
-            this.button8.Margin = new System.Windows.Forms.Padding(2);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(180, 55);
-            this.button8.TabIndex = 15;
-            this.button8.Text = "REPACK \".LIN\"";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            labelTextures.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            labelTextures.AutoSize = true;
+            labelTextures.BackColor = System.Drawing.SystemColors.ControlLight;
+            tableLayoutPanelDR1PC.SetColumnSpan(labelTextures, 2);
+            labelTextures.ForeColor = System.Drawing.Color.Black;
+            labelTextures.Location = new System.Drawing.Point(595, 4);
+            labelTextures.Name = "labelTextures";
+            labelTextures.Size = new System.Drawing.Size(362, 15);
+            labelTextures.TabIndex = 26;
+            labelTextures.Text = "TEXTURES";
+            labelTextures.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // labelTexts
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.tableLayoutPanel5.SetColumnSpan(this.label3, 2);
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(595, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(362, 18);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "TEXTURES";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            labelTexts.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            labelTexts.AutoSize = true;
+            labelTexts.BackColor = System.Drawing.SystemColors.ControlLight;
+            tableLayoutPanelDR1PC.SetColumnSpan(labelTexts, 2);
+            labelTexts.ForeColor = System.Drawing.Color.Black;
+            labelTexts.Location = new System.Drawing.Point(207, 4);
+            labelTexts.Name = "labelTexts";
+            labelTexts.Size = new System.Drawing.Size(362, 15);
+            labelTexts.TabIndex = 25;
+            labelTexts.Text = "TEXTS";
+            labelTexts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // buttonExtractLin
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.tableLayoutPanel5.SetColumnSpan(this.label2, 2);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(207, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(362, 18);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "TEXTS";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            buttonExtractLin.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonExtractLin.BackColor = System.Drawing.Color.Black;
+            buttonExtractLin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractLin.ForeColor = System.Drawing.Color.White;
+            buttonExtractLin.Location = new System.Drawing.Point(206, 23);
+            buttonExtractLin.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractLin.Name = "buttonExtractLin";
+            buttonExtractLin.Size = new System.Drawing.Size(180, 55);
+            buttonExtractLin.TabIndex = 5;
+            buttonExtractLin.Text = "EXTRACT \".LIN\"";
+            buttonExtractLin.UseVisualStyleBackColor = false;
+            buttonExtractLin.Click += new System.EventHandler(Button7_Click);
             // 
-            // button7
+            // labelUtilities
             // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.button7.BackColor = System.Drawing.Color.Black;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(206, 23);
-            this.button7.Margin = new System.Windows.Forms.Padding(2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(180, 55);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "EXTRACT \".LIN\"";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            labelUtilities.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            labelUtilities.AutoSize = true;
+            labelUtilities.BackColor = System.Drawing.SystemColors.ControlLight;
+            tableLayoutPanelDR1PC.SetColumnSpan(labelUtilities, 2);
+            labelUtilities.ForeColor = System.Drawing.Color.Black;
+            labelUtilities.Location = new System.Drawing.Point(595, 276);
+            labelUtilities.Name = "labelUtilities";
+            labelUtilities.Size = new System.Drawing.Size(362, 15);
+            labelUtilities.TabIndex = 32;
+            labelUtilities.Text = "UTILITIES";
+            labelUtilities.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // buttonConvertGXT
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(3, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 18);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "DATA ASSETS";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            buttonConvertGXT.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonConvertGXT.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonConvertGXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonConvertGXT.ForeColor = System.Drawing.Color.White;
+            buttonConvertGXT.Location = new System.Drawing.Point(594, 218);
+            buttonConvertGXT.Margin = new System.Windows.Forms.Padding(2);
+            buttonConvertGXT.Name = "buttonConvertGXT";
+            buttonConvertGXT.Size = new System.Drawing.Size(180, 55);
+            buttonConvertGXT.TabIndex = 14;
+            buttonConvertGXT.Text = "CONVERT TO\r\nGXT";
+            buttonConvertGXT.UseVisualStyleBackColor = false;
+            buttonConvertGXT.Click += new System.EventHandler(Button21_Click);
             // 
-            // button1
+            // buttonConvertXmlToPo
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(2, 23);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 55);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "EXTRACT \".WAD\"";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            buttonConvertXmlToPo.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonConvertXmlToPo.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonConvertXmlToPo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonConvertXmlToPo.ForeColor = System.Drawing.Color.White;
+            buttonConvertXmlToPo.Location = new System.Drawing.Point(594, 295);
+            buttonConvertXmlToPo.Margin = new System.Windows.Forms.Padding(2);
+            buttonConvertXmlToPo.Name = "buttonConvertXmlToPo";
+            buttonConvertXmlToPo.Size = new System.Drawing.Size(180, 55);
+            buttonConvertXmlToPo.TabIndex = 27;
+            buttonConvertXmlToPo.Text = "CONVERT XML\r\nTO PO";
+            buttonConvertXmlToPo.UseVisualStyleBackColor = false;
+            buttonConvertXmlToPo.Click += new System.EventHandler(Button25_Click);
             // 
-            // button2
+            // buttonaPoToTranslateOtherPos
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(2, 82);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 55);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "REPACK \".WAD\"";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            buttonaPoToTranslateOtherPos.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonaPoToTranslateOtherPos.BackColor = System.Drawing.SystemColors.InfoText;
+            buttonaPoToTranslateOtherPos.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonaPoToTranslateOtherPos.ForeColor = System.Drawing.Color.White;
+            buttonaPoToTranslateOtherPos.Location = new System.Drawing.Point(778, 295);
+            buttonaPoToTranslateOtherPos.Margin = new System.Windows.Forms.Padding(2);
+            buttonaPoToTranslateOtherPos.Name = "buttonaPoToTranslateOtherPos";
+            buttonaPoToTranslateOtherPos.Size = new System.Drawing.Size(180, 55);
+            buttonaPoToTranslateOtherPos.TabIndex = 36;
+            buttonaPoToTranslateOtherPos.Text = "USE A \".PO\" TO TRANSLATE OTHERS \".PO\"";
+            buttonaPoToTranslateOtherPos.UseVisualStyleBackColor = false;
+            buttonaPoToTranslateOtherPos.Click += new System.EventHandler(buttonaPoToTranslateOtherPos_Click);
+            // 
+            // labelDataAssets
+            // 
+            labelDataAssets.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            labelDataAssets.AutoSize = true;
+            labelDataAssets.BackColor = System.Drawing.SystemColors.ControlLight;
+            labelDataAssets.ForeColor = System.Drawing.Color.Black;
+            labelDataAssets.Location = new System.Drawing.Point(3, 4);
+            labelDataAssets.Name = "labelDataAssets";
+            labelDataAssets.Size = new System.Drawing.Size(178, 15);
+            labelDataAssets.TabIndex = 25;
+            labelDataAssets.Text = "DATA ASSETS";
+            labelDataAssets.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonUnpackWAD
+            // 
+            buttonUnpackWAD.BackColor = System.Drawing.Color.Black;
+            buttonUnpackWAD.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonUnpackWAD.ForeColor = System.Drawing.Color.White;
+            buttonUnpackWAD.Location = new System.Drawing.Point(2, 23);
+            buttonUnpackWAD.Margin = new System.Windows.Forms.Padding(2);
+            buttonUnpackWAD.Name = "buttonUnpackWAD";
+            buttonUnpackWAD.Size = new System.Drawing.Size(180, 55);
+            buttonUnpackWAD.TabIndex = 0;
+            buttonUnpackWAD.Text = "EXTRACT \".WAD\"";
+            buttonUnpackWAD.UseVisualStyleBackColor = false;
+            buttonUnpackWAD.Click += new System.EventHandler(Button1_Click);
+            // 
+            // buttonRepackWAD
+            // 
+            buttonRepackWAD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackWAD.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackWAD.ForeColor = System.Drawing.Color.White;
+            buttonRepackWAD.Location = new System.Drawing.Point(2, 82);
+            buttonRepackWAD.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackWAD.Name = "buttonRepackWAD";
+            buttonRepackWAD.Size = new System.Drawing.Size(180, 55);
+            buttonRepackWAD.TabIndex = 5;
+            buttonRepackWAD.Text = "REPACK \".WAD\"";
+            buttonRepackWAD.UseVisualStyleBackColor = false;
+            buttonRepackWAD.Click += new System.EventHandler(Button2_Click);
             // 
             // tabPage4
             // 
-            this.tabPage4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage4.BackgroundImage")));
-            this.tabPage4.Controls.Add(this.tableLayoutPanel6);
-            this.tabPage4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(960, 276);
-            this.tabPage4.TabIndex = 4;
-            this.tabPage4.Text = "DR2 (PSVITA)";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            tabPage4.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
+            tabPage4.Controls.Add(tableLayoutPanelDR2PSVITA);
+            tabPage4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tabPage4.Location = new System.Drawing.Point(4, 22);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Size = new System.Drawing.Size(960, 354);
+            tabPage4.TabIndex = 4;
+            tabPage4.Text = "DR2 (PSVITA)";
+            tabPage4.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel6
+            // tableLayoutPanelDR2PSVITA
             // 
-            this.tableLayoutPanel6.ColumnCount = 7;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.tableLayoutPanel6.RowCount = 8;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(960, 276);
-            this.tableLayoutPanel6.TabIndex = 1;
+            tableLayoutPanelDR2PSVITA.ColumnCount = 7;
+            tableLayoutPanelDR2PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR2PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR2PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PSVITA.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanelDR2PSVITA.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanelDR2PSVITA.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanelDR2PSVITA.Name = "tableLayoutPanelDR2PSVITA";
+            tableLayoutPanelDR2PSVITA.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            tableLayoutPanelDR2PSVITA.RowCount = 12;
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PSVITA.Size = new System.Drawing.Size(960, 354);
+            tableLayoutPanelDR2PSVITA.TabIndex = 1;
             // 
             // tabPage5
             // 
-            this.tabPage5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage5.BackgroundImage")));
-            this.tabPage5.Controls.Add(this.tableLayoutPanel7);
-            this.tabPage5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(960, 276);
-            this.tabPage5.TabIndex = 3;
-            this.tabPage5.Text = "DR2 (PC)";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            tabPage5.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
+            tabPage5.Controls.Add(tableLayoutPanelDR2PC);
+            tabPage5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tabPage5.Location = new System.Drawing.Point(4, 22);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Size = new System.Drawing.Size(960, 354);
+            tabPage5.TabIndex = 3;
+            tabPage5.Text = "DR2 (PC)";
+            tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel7
+            // tableLayoutPanelDR2PC
             // 
-            this.tableLayoutPanel7.ColumnCount = 7;
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-            this.tableLayoutPanel7.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.tableLayoutPanel7.RowCount = 8;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(960, 276);
-            this.tableLayoutPanel7.TabIndex = 1;
+            tableLayoutPanelDR2PC.ColumnCount = 7;
+            tableLayoutPanelDR2PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR2PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDR2PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDR2PC.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanelDR2PC.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanelDR2PC.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanelDR2PC.Name = "tableLayoutPanelDR2PC";
+            tableLayoutPanelDR2PC.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            tableLayoutPanelDR2PC.RowCount = 12;
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDR2PC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDR2PC.Size = new System.Drawing.Size(960, 354);
+            tableLayoutPanelDR2PC.TabIndex = 1;
             // 
             // tabPage6
             // 
-            this.tabPage6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage6.BackgroundImage")));
-            this.tabPage6.Controls.Add(this.tableLayoutPanel8);
-            this.tabPage6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage6.Location = new System.Drawing.Point(4, 25);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(960, 276);
-            this.tabPage6.TabIndex = 6;
-            this.tabPage6.Text = "DRAE (PSVITA)";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            tabPage6.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
+            tabPage6.Controls.Add(tableLayoutPanelDRAEPSVITA);
+            tabPage6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tabPage6.Location = new System.Drawing.Point(4, 22);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Size = new System.Drawing.Size(960, 354);
+            tabPage6.TabIndex = 6;
+            tabPage6.Text = "DRAE (PSVITA)";
+            tabPage6.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel8
+            // tableLayoutPanelDRAEPSVITA
             // 
-            this.tableLayoutPanel8.ColumnCount = 7;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.tableLayoutPanel8.RowCount = 8;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(960, 276);
-            this.tableLayoutPanel8.TabIndex = 1;
+            tableLayoutPanelDRAEPSVITA.ColumnCount = 7;
+            tableLayoutPanelDRAEPSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDRAEPSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDRAEPSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPSVITA.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPSVITA.Controls.Add(buttonExtractBND, 2, 7);
+            tableLayoutPanelDRAEPSVITA.Controls.Add(buttonRepackBND, 3, 7);
+            tableLayoutPanelDRAEPSVITA.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanelDRAEPSVITA.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanelDRAEPSVITA.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanelDRAEPSVITA.Name = "tableLayoutPanelDRAEPSVITA";
+            tableLayoutPanelDRAEPSVITA.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            tableLayoutPanelDRAEPSVITA.RowCount = 12;
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPSVITA.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPSVITA.Size = new System.Drawing.Size(960, 354);
+            tableLayoutPanelDRAEPSVITA.TabIndex = 1;
+            // 
+            // buttonExtractBND
+            // 
+            buttonExtractBND.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonExtractBND.BackColor = System.Drawing.Color.Black;
+            buttonExtractBND.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonExtractBND.ForeColor = System.Drawing.Color.White;
+            buttonExtractBND.Location = new System.Drawing.Point(206, 295);
+            buttonExtractBND.Margin = new System.Windows.Forms.Padding(2);
+            buttonExtractBND.Name = "buttonExtractBND";
+            buttonExtractBND.Size = new System.Drawing.Size(180, 55);
+            buttonExtractBND.TabIndex = 21;
+            buttonExtractBND.Text = "EXTRACT \".BND\"";
+            buttonExtractBND.UseVisualStyleBackColor = false;
+            buttonExtractBND.Click += new System.EventHandler(Button23_Click);
+            // 
+            // buttonRepackBND
+            // 
+            buttonRepackBND.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            buttonRepackBND.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            buttonRepackBND.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            buttonRepackBND.ForeColor = System.Drawing.Color.White;
+            buttonRepackBND.Location = new System.Drawing.Point(390, 295);
+            buttonRepackBND.Margin = new System.Windows.Forms.Padding(2);
+            buttonRepackBND.Name = "buttonRepackBND";
+            buttonRepackBND.Size = new System.Drawing.Size(180, 55);
+            buttonRepackBND.TabIndex = 22;
+            buttonRepackBND.Text = "REPACK \".BND\"";
+            buttonRepackBND.UseVisualStyleBackColor = false;
+            buttonRepackBND.Click += new System.EventHandler(Button24_Click);
             // 
             // tabPage7
             // 
-            this.tabPage7.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
-            this.tabPage7.Controls.Add(this.tableLayoutPanel9);
-            this.tabPage7.Location = new System.Drawing.Point(4, 25);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(960, 276);
-            this.tabPage7.TabIndex = 7;
-            this.tabPage7.Text = "DRAE (PC)";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            tabPage7.BackgroundImage = global::Danganronpa_Another_Tool.Properties.Resources.save_bg1;
+            tabPage7.Controls.Add(tableLayoutPanelDRAEPC);
+            tabPage7.Location = new System.Drawing.Point(4, 22);
+            tabPage7.Name = "tabPage7";
+            tabPage7.Size = new System.Drawing.Size(960, 354);
+            tabPage7.TabIndex = 7;
+            tabPage7.Text = "DRAE (PC)";
+            tabPage7.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel9
+            // tableLayoutPanelDRAEPC
             // 
-            this.tableLayoutPanel9.ColumnCount = 7;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
-            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.tableLayoutPanel9.RowCount = 8;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(960, 276);
-            this.tableLayoutPanel9.TabIndex = 2;
+            tableLayoutPanelDRAEPC.ColumnCount = 7;
+            tableLayoutPanelDRAEPC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDRAEPC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            tableLayoutPanelDRAEPC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPC.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
+            tableLayoutPanelDRAEPC.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanelDRAEPC.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanelDRAEPC.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanelDRAEPC.Name = "tableLayoutPanelDRAEPC";
+            tableLayoutPanelDRAEPC.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            tableLayoutPanelDRAEPC.RowCount = 12;
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 59F));
+            tableLayoutPanelDRAEPC.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
+            tableLayoutPanelDRAEPC.Size = new System.Drawing.Size(960, 354);
+            tableLayoutPanelDRAEPC.TabIndex = 2;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.Control;
-            this.tableLayoutPanel2.ColumnCount = 4;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Controls.Add(this.label5, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.menuStrip1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label4, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.linkLabel1, 3, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(968, 28);
-            this.tableLayoutPanel2.TabIndex = 25;
+            tableLayoutPanel2.BackColor = System.Drawing.SystemColors.Control;
+            tableLayoutPanel2.ColumnCount = 4;
+            tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            tableLayoutPanel2.Controls.Add(labelStatusText, 2, 0);
+            tableLayoutPanel2.Controls.Add(menuStrip1, 0, 0);
+            tableLayoutPanel2.Controls.Add(labelStatusName, 1, 0);
+            tableLayoutPanel2.Controls.Add(linkLabelCredits, 3, 0);
+            tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 1;
+            tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            tableLayoutPanel2.Size = new System.Drawing.Size(968, 28);
+            tableLayoutPanel2.TabIndex = 25;
             // 
-            // label5
+            // labelStatusText
             // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(483, 0);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(161, 28);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Ready!";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            labelStatusText.AutoSize = true;
+            labelStatusText.Dock = System.Windows.Forms.DockStyle.Fill;
+            labelStatusText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            labelStatusText.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            labelStatusText.Location = new System.Drawing.Point(483, 0);
+            labelStatusText.Margin = new System.Windows.Forms.Padding(0);
+            labelStatusText.Name = "labelStatusText";
+            labelStatusText.Size = new System.Drawing.Size(161, 28);
+            labelStatusText.TabIndex = 2;
+            labelStatusText.Text = "Ready!";
+            labelStatusText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.optionsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(322, 28);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            menuStrip1.BackColor = System.Drawing.SystemColors.Control;
+            menuStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            optionsToolStripMenuItem});
+            menuStrip1.Location = new System.Drawing.Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new System.Drawing.Size(322, 28);
+            menuStrip1.TabIndex = 0;
+            menuStrip1.Text = "menuStrip1";
             // 
             // optionsToolStripMenuItem
             // 
-            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.textToolStripMenuItem});
-            this.optionsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
-            this.optionsToolStripMenuItem.Text = "Options";
+            optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            repackToolStripMenuItem,
+            textToolStripMenuItem,
+            toBTXToolStripMenuItem});
+            optionsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 24);
+            optionsToolStripMenuItem.Text = "Options";
+            // 
+            // repackToolStripMenuItem
+            // 
+            repackToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            chooseFreelyTheFolderToRepackToolStripMenuItem});
+            repackToolStripMenuItem.Name = "repackToolStripMenuItem";
+            repackToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            repackToolStripMenuItem.Text = "Repack";
+            // 
+            // chooseFreelyTheFolderToRepackToolStripMenuItem
+            // 
+            chooseFreelyTheFolderToRepackToolStripMenuItem.CheckOnClick = true;
+            chooseFreelyTheFolderToRepackToolStripMenuItem.Name = "chooseFreelyTheFolderToRepackToolStripMenuItem";
+            chooseFreelyTheFolderToRepackToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            chooseFreelyTheFolderToRepackToolStripMenuItem.Text = "Choose freely the folder to repack";
             // 
             // textToolStripMenuItem
             // 
-            this.textToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ignoreLINWoTextToolStripMenuItem,
-            this.eraseExtraLinefeedsToolStripMenuItem,
-            this.aDDJAPANESETEXTToolStripMenuItem,
-            this.hIDESPEAKERSToolStripMenuItem,
-            this.cLEANPSPCLTToolStripMenuItem});
-            this.textToolStripMenuItem.Name = "textToolStripMenuItem";
-            this.textToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
-            this.textToolStripMenuItem.Text = "Text";
+            textToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            ignoreLINWoTextToolStripMenuItem,
+            eraseExtraLinefeedsToolStripMenuItem,
+            aDDJAPANESETEXTToolStripMenuItem,
+            hIDESPEAKERSToolStripMenuItem,
+            cLEANPSPCLTToolStripMenuItem});
+            textToolStripMenuItem.Name = "textToolStripMenuItem";
+            textToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            textToolStripMenuItem.Text = "Text";
             // 
             // ignoreLINWoTextToolStripMenuItem
             // 
-            this.ignoreLINWoTextToolStripMenuItem.Checked = true;
-            this.ignoreLINWoTextToolStripMenuItem.CheckOnClick = true;
-            this.ignoreLINWoTextToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ignoreLINWoTextToolStripMenuItem.Name = "ignoreLINWoTextToolStripMenuItem";
-            this.ignoreLINWoTextToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.ignoreLINWoTextToolStripMenuItem.Text = "IGNORE \".LIN\" W/O TEXT";
+            ignoreLINWoTextToolStripMenuItem.Checked = true;
+            ignoreLINWoTextToolStripMenuItem.CheckOnClick = true;
+            ignoreLINWoTextToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            ignoreLINWoTextToolStripMenuItem.Name = "ignoreLINWoTextToolStripMenuItem";
+            ignoreLINWoTextToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            ignoreLINWoTextToolStripMenuItem.Text = "Ignore \".LIN\" w/o text";
             // 
             // eraseExtraLinefeedsToolStripMenuItem
             // 
-            this.eraseExtraLinefeedsToolStripMenuItem.Checked = true;
-            this.eraseExtraLinefeedsToolStripMenuItem.CheckOnClick = true;
-            this.eraseExtraLinefeedsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.eraseExtraLinefeedsToolStripMenuItem.Name = "eraseExtraLinefeedsToolStripMenuItem";
-            this.eraseExtraLinefeedsToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.eraseExtraLinefeedsToolStripMenuItem.Text = "ERASE EXTRA LINEFEEDS";
+            eraseExtraLinefeedsToolStripMenuItem.Checked = true;
+            eraseExtraLinefeedsToolStripMenuItem.CheckOnClick = true;
+            eraseExtraLinefeedsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            eraseExtraLinefeedsToolStripMenuItem.Name = "eraseExtraLinefeedsToolStripMenuItem";
+            eraseExtraLinefeedsToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            eraseExtraLinefeedsToolStripMenuItem.Text = "Erase extra linefeeds";
             // 
             // aDDJAPANESETEXTToolStripMenuItem
             // 
-            this.aDDJAPANESETEXTToolStripMenuItem.Checked = true;
-            this.aDDJAPANESETEXTToolStripMenuItem.CheckOnClick = true;
-            this.aDDJAPANESETEXTToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.aDDJAPANESETEXTToolStripMenuItem.Name = "aDDJAPANESETEXTToolStripMenuItem";
-            this.aDDJAPANESETEXTToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.aDDJAPANESETEXTToolStripMenuItem.Text = "ADD JAPANESE TEXT";
+            aDDJAPANESETEXTToolStripMenuItem.Checked = true;
+            aDDJAPANESETEXTToolStripMenuItem.CheckOnClick = true;
+            aDDJAPANESETEXTToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            aDDJAPANESETEXTToolStripMenuItem.Name = "aDDJAPANESETEXTToolStripMenuItem";
+            aDDJAPANESETEXTToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            aDDJAPANESETEXTToolStripMenuItem.Text = "Add japanese text";
             // 
             // hIDESPEAKERSToolStripMenuItem
             // 
-            this.hIDESPEAKERSToolStripMenuItem.CheckOnClick = true;
-            this.hIDESPEAKERSToolStripMenuItem.Name = "hIDESPEAKERSToolStripMenuItem";
-            this.hIDESPEAKERSToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.hIDESPEAKERSToolStripMenuItem.Text = "HIDE SPEAKERS";
+            hIDESPEAKERSToolStripMenuItem.CheckOnClick = true;
+            hIDESPEAKERSToolStripMenuItem.Name = "hIDESPEAKERSToolStripMenuItem";
+            hIDESPEAKERSToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            hIDESPEAKERSToolStripMenuItem.Text = "Hide speakers";
             // 
             // cLEANPSPCLTToolStripMenuItem
             // 
-            this.cLEANPSPCLTToolStripMenuItem.CheckOnClick = true;
-            this.cLEANPSPCLTToolStripMenuItem.Name = "cLEANPSPCLTToolStripMenuItem";
-            this.cLEANPSPCLTToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.cLEANPSPCLTToolStripMenuItem.Text = "CLEAN PSP \"CLT\"";
+            cLEANPSPCLTToolStripMenuItem.CheckOnClick = true;
+            cLEANPSPCLTToolStripMenuItem.Name = "cLEANPSPCLTToolStripMenuItem";
+            cLEANPSPCLTToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            cLEANPSPCLTToolStripMenuItem.Text = "Clean PSP \"CLT\"";
             // 
-            // label4
+            // toBTXToolStripMenuItem
             // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(322, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 28);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Status:";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            toBTXToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            toBTXToolStripMenuItem1,
+            removeAdditionalDataFromExtensionToolStripMenuItem});
+            toBTXToolStripMenuItem.Name = "toBTXToolStripMenuItem";
+            toBTXToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            toBTXToolStripMenuItem.Text = "Images";
             // 
-            // linkLabel1
+            // toBTXToolStripMenuItem1
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(647, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(318, 28);
-            this.linkLabel1.TabIndex = 3;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Liquid S!©2017";
-            this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            toBTXToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            toolStripComboBoxBTXType});
+            toBTXToolStripMenuItem1.Name = "toBTXToolStripMenuItem1";
+            toBTXToolStripMenuItem1.Size = new System.Drawing.Size(282, 22);
+            toBTXToolStripMenuItem1.Text = "To BTX (Choose BTX\'s type)";
+            // 
+            // toolStripComboBoxBTXType
+            // 
+            toolStripComboBoxBTXType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            toolStripComboBoxBTXType.Items.AddRange(new object[] {
+            "AUTO",
+            "SHTX",
+            "SHTXFS",
+            "SHTXFs",
+            "SHTXFF",
+            "SHTXFf"});
+            toolStripComboBoxBTXType.Name = "toolStripComboBoxBTXType";
+            toolStripComboBoxBTXType.Size = new System.Drawing.Size(80, 23);
+            // 
+            // removeAdditionalDataFromExtensionToolStripMenuItem
+            // 
+            removeAdditionalDataFromExtensionToolStripMenuItem.CheckOnClick = true;
+            removeAdditionalDataFromExtensionToolStripMenuItem.Name = "removeAdditionalDataFromExtensionToolStripMenuItem";
+            removeAdditionalDataFromExtensionToolStripMenuItem.Size = new System.Drawing.Size(282, 22);
+            removeAdditionalDataFromExtensionToolStripMenuItem.Text = "Remove additional data from extension";
+            // 
+            // labelStatusName
+            // 
+            labelStatusName.AutoSize = true;
+            labelStatusName.Dock = System.Windows.Forms.DockStyle.Fill;
+            labelStatusName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            labelStatusName.Location = new System.Drawing.Point(322, 0);
+            labelStatusName.Margin = new System.Windows.Forms.Padding(0);
+            labelStatusName.Name = "labelStatusName";
+            labelStatusName.Size = new System.Drawing.Size(161, 28);
+            labelStatusName.TabIndex = 1;
+            labelStatusName.Text = "Status:";
+            labelStatusName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // linkLabelCredits
+            // 
+            linkLabelCredits.AutoSize = true;
+            linkLabelCredits.Dock = System.Windows.Forms.DockStyle.Fill;
+            linkLabelCredits.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            linkLabelCredits.Location = new System.Drawing.Point(647, 0);
+            linkLabelCredits.Name = "linkLabelCredits";
+            linkLabelCredits.Size = new System.Drawing.Size(318, 28);
+            linkLabelCredits.TabIndex = 3;
+            linkLabelCredits.TabStop = true;
+            linkLabelCredits.Text = "GITHUB WEBPAGE";
+            linkLabelCredits.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            linkLabelCredits.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(LinkLabel1_LinkClicked);
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.tabControl1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(968, 333);
-            this.tableLayoutPanel1.TabIndex = 25;
+            tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Control;
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(tabControl1, 0, 1);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 0);
+            tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            tableLayoutPanel1.Size = new System.Drawing.Size(968, 408);
+            tableLayoutPanel1.TabIndex = 25;
             // 
-            // Form1
+            // DRAT
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(968, 333);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "Danganronpa: Another Tool (Vers: 1.0)";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage7.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.ResumeLayout(false);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            BackColor = System.Drawing.Color.Black;
+            ClientSize = new System.Drawing.Size(968, 408);
+            Controls.Add(tableLayoutPanel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            MainMenuStrip = menuStrip1;
+            Margin = new System.Windows.Forms.Padding(2);
+            MaximizeBox = false;
+            Name = "DRAT";
+            SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            Text = "Danganronpa: Another Tool (Vers: 1.1 BETA 15)";
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tableLayoutPanelDR1PSP.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
+            tableLayoutPanelDR1PSVITA.ResumeLayout(false);
+            tableLayoutPanelDR1PSVITA.PerformLayout();
+            tabPage3.ResumeLayout(false);
+            tableLayoutPanelDR1PC.ResumeLayout(false);
+            tableLayoutPanelDR1PC.PerformLayout();
+            tabPage4.ResumeLayout(false);
+            tabPage5.ResumeLayout(false);
+            tabPage6.ResumeLayout(false);
+            tableLayoutPanelDRAEPSVITA.ResumeLayout(false);
+            tabPage7.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            tableLayoutPanel1.ResumeLayout(false);
+            ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelDR1PSP;
+        private System.Windows.Forms.Button buttonRepackUmdImage;
+        private System.Windows.Forms.Button buttonExtractUmdImage;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelDR1PC;
+        private System.Windows.Forms.Button buttonRepackPakToPNG;
+        private System.Windows.Forms.Button buttonExtractPakToPNG;
+        private System.Windows.Forms.Button buttonRepackPakType1;
+        private System.Windows.Forms.Button buttonRepacktPakWOConvert16;
+        private System.Windows.Forms.Button buttonConvertGXT;
+        private System.Windows.Forms.Button buttonConvertToTGA;
+        private System.Windows.Forms.Button buttonExtractPakType2;
+        private System.Windows.Forms.Button buttonConverBTX;
+        private System.Windows.Forms.Button buttonConvertToPng;
+        private System.Windows.Forms.Button buttonRepackPakType2;
+        private System.Windows.Forms.Button buttonExtractPakWOConvert;
+        private System.Windows.Forms.Button buttonExtractPakType3;
+        private System.Windows.Forms.Button buttonRepackPakType3;
+        private System.Windows.Forms.Button buttonExtractPakType1;
+        private System.Windows.Forms.Button buttonRepackLin;
+        private System.Windows.Forms.Label labelTextures;
+        private System.Windows.Forms.Label labelTexts;
+        private System.Windows.Forms.Button buttonExtractLin;
+        private System.Windows.Forms.Label labelDataAssets;
+        private System.Windows.Forms.Button buttonUnpackWAD;
+        private System.Windows.Forms.Button buttonRepackWAD;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelDR1PSVITA;
+        private System.Windows.Forms.Button buttonExtractCPK;
+        private System.Windows.Forms.Button buttonRepackCPK;
         private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelDR2PC;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelDR2PSVITA;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelDRAEPSVITA;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem textToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ignoreLINWoTextToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eraseExtraLinefeedsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aDDJAPANESETEXTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hIDESPEAKERSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cLEANPSPCLTToolStripMenuItem;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label labelStatusName;
+        private System.Windows.Forms.LinkLabel linkLabelCredits;
         private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelDRAEPC;
+        private System.Windows.Forms.Button buttonExtractBND;
+        private System.Windows.Forms.Button buttonRepackBND;
+        private System.Windows.Forms.Button buttonConvertXmlToPo;
+        private System.Windows.Forms.Label labelCompression;
+        private System.Windows.Forms.Button buttonDecompressFiles;
+        private System.Windows.Forms.Button buttonCompressFIles;
+        private System.Windows.Forms.Label labelUtilities;
+        private System.Windows.Forms.ToolStripMenuItem toBTXToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toBTXToolStripMenuItem1;
+        private System.Windows.Forms.Button buttonaPoToTranslateOtherPos;
+        public static System.Windows.Forms.ToolStripMenuItem removeAdditionalDataFromExtensionToolStripMenuItem;
+        public static System.Windows.Forms.ToolStripComboBox toolStripComboBoxBTXType;
+        public static System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
+        public static System.Windows.Forms.TabControl tabControl1;
+        public static System.Windows.Forms.ToolStripMenuItem textToolStripMenuItem;
+        public static System.Windows.Forms.ToolStripMenuItem ignoreLINWoTextToolStripMenuItem;
+        public static System.Windows.Forms.ToolStripMenuItem eraseExtraLinefeedsToolStripMenuItem;
+        public static System.Windows.Forms.ToolStripMenuItem aDDJAPANESETEXTToolStripMenuItem;
+        public static System.Windows.Forms.ToolStripMenuItem hIDESPEAKERSToolStripMenuItem;
+        public static System.Windows.Forms.ToolStripMenuItem cLEANPSPCLTToolStripMenuItem;
+        public static System.Windows.Forms.Label labelStatusText;
+        public static System.Windows.Forms.ToolStripMenuItem repackToolStripMenuItem;
+        public static System.Windows.Forms.ToolStripMenuItem chooseFreelyTheFolderToRepackToolStripMenuItem;
     }
 }
-
